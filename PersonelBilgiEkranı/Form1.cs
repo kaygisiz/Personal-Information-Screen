@@ -18,11 +18,6 @@ namespace PersonelBilgiEkranı
     public partial class Form1 : Form
     {
         String file, image, deger, app;
-        double aranan;
-        Excel.Application xlApp ;
-        Excel.Workbook xlWorkBook ;
-        Excel.Worksheet xlWorkSheet ;
-        Excel.Range range ;
         public Form1()
         {
             InitializeComponent();
