@@ -1,0 +1,12 @@
+c:\users\caner\documents\visual studio 2012\Projects\PersonelBilgiEkranı\PersonelBilgiEkranı\obj\Debug\PersonelBilgiEkranı.Form1.resources
+c:\users\caner\documents\visual studio 2012\Projects\PersonelBilgiEkranı\PersonelBilgiEkranı\obj\Debug\PersonelBilgiEkranı.csproj.GenerateResource.Cache
+C:\Users\Caner\Documents\Visual Studio 2012\Projects\PersonelBilgiEkranı\PersonelBilgiEkranı\bin\Debug\db.db3
+C:\Users\Caner\Documents\Visual Studio 2012\Projects\PersonelBilgiEkranı\PersonelBilgiEkranı\bin\Debug\System.Data.SQLite.dll
+C:\Users\Caner\Documents\Visual Studio 2012\Projects\PersonelBilgiEkranı\PersonelBilgiEkranı\bin\Debug\System.Data.SQLite.xml
+C:\Users\Caner\Documents\Visual Studio 2012\Projects\PersonelBilgiEkranı\PersonelBilgiEkranı\obj\Debug\PersonelBilgiEkranı.csprojResolveAssemblyReference.cache
+C:\Users\Caner\Documents\Visual Studio 2012\Projects\PersonelBilgiEkranı\PersonelBilgiEkranı\bin\Debug\Personal Information Screen.exe.config
+C:\Users\Caner\Documents\Visual Studio 2012\Projects\PersonelBilgiEkranı\PersonelBilgiEkranı\bin\Debug\Personal Information Screen.exe
+C:\Users\Caner\Documents\Visual Studio 2012\Projects\PersonelBilgiEkranı\PersonelBilgiEkranı\bin\Debug\Personal Information Screen.pdb
+C:\Users\Caner\Documents\Visual Studio 2012\Projects\PersonelBilgiEkranı\PersonelBilgiEkranı\obj\Debug\PersonalInformationScreen.Properties.Resources.resources
+C:\Users\Caner\Documents\Visual Studio 2012\Projects\PersonelBilgiEkranı\PersonelBilgiEkranı\obj\Debug\Personal Information Screen.exe
+C:\Users\Caner\Documents\Visual Studio 2012\Projects\PersonelBilgiEkranı\PersonelBilgiEkranı\obj\Debug\Personal Information Screen.pdb

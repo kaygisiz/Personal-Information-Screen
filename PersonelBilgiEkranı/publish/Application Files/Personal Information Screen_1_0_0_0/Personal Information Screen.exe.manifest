@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Personal Information Screen.exe" version="1.0.0.0" publicKeyToken="8baad467c05d942e" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="icon (2).ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Personal Information Screen" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Personal Information Screen.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Office.Client.Education" version="15.0.0.0" publicKeyToken="71E9BCE111E9429C" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.SharePoint.Client.Runtime" version="15.0.0.0" publicKeyToken="71E9BCE111E9429C" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Personal Information Screen.exe" size="762880">
+      <assemblyIdentity name="Personal Information Screen" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>ZSEgt3g8beRkjqDxeWT9lXa2Hvg2ryF7RHmhFWmdvwI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="System.Data.SQLite.dll" size="904704">
+      <assemblyIdentity name="System.Data.SQLite" version="1.0.66.0" publicKeyToken="DB937BC2D44FF139" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>SSYb5/IMnZ39H/NdcenzsbfeF/ZVgcZ77tQ9kz8euFw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="db.db3" size="3072">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Uv5W5GaHWtG1bQ4NT3iYacDlQ+RV4HtD5csVPXCb8NQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icon (2).ico" size="370070">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>LeLdEctGuT166YvhuJXKLdGpvnhwEjHF4nkMnGNlRaY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Personal Information Screen.exe.config" size="220">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Z4whlIDZCtCnA702xDtn+gbMv7cz/a5OnK+UCeUSf3A=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=CanerPC\Caner" issuerKeyHash="b425e42a8a6b7223a0d885c94774600b61c636c9" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>4WazV6tFriTuvLQZ8WG6If+dxX4KLPEgS7TeC9cIm44=</DigestValue></Reference></SignedInfo><SignatureValue>Rfd5YvR2/UceeN+yIcYBVmJSNdu4U2ji3yrHlNqlils//E2CofvGB0aIBgdVfUUwPNGw7uMSoXGXJvPbHiJuPkgcZIFc8Iqv/DqiyCyd4KuXEkI9REMHZLL/hEswm/ZTi2G7nBRxG7HUG+A9gRJw+KCpvVmA911OU34ZvjbUow8=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>pgSSqquDHFmCkFjF4kTxLW/aQ08L0jwfiwosn/B/NLRbl4mZbvgkZiHMKY0xELl4HW6uxhHMXQElD0x3bV5J8Y7Wr56RSCaD4HzVfoBhnogocM39OH+slDHCUib4JVeb7CJeugUEWc3OMdceBp4xnIoxbuyFoP2xJ85RDMJLODU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="8e9b08d70bdeb44b20f12c0a7ec59dff21ba61f119b4bcee24ae45ab57b366e1" Description="" Url=""><as:assemblyIdentity name="Personal Information Screen.exe" version="1.0.0.0" publicKeyToken="8baad467c05d942e" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=CanerPC\Caner</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>d1sCYd3zZLa8605rhPgSRcFatjKuZLdoRteJTAMCpMI=</DigestValue></Reference></SignedInfo><SignatureValue>FZThlmEO0Qs7FdlNDotRSNBI82TuVckcajZftW0Ph+T2aSpuTTKKsDYhDZNPonKHHwXtan4TZgu8VuXI7Q2n81sdYSK8T2G9772VnfPQItgX2sS2jNueE2nPotvrBUKMNDJFzTIB9AmDFLXcgbTLXPZvMw8mM1SJAPgjSq78y+c=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>pgSSqquDHFmCkFjF4kTxLW/aQ08L0jwfiwosn/B/NLRbl4mZbvgkZiHMKY0xELl4HW6uxhHMXQElD0x3bV5J8Y7Wr56RSCaD4HzVfoBhnogocM39OH+slDHCUib4JVeb7CJeugUEWc3OMdceBp4xnIoxbuyFoP2xJ85RDMJLODU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBzTCCATagAwIBAgIQJZyKM7ASlLdGTxdyIcqSOzANBgkqhkiG9w0BAQsFADAlMSMwIQYDVQQDHhoAQwBhAG4AZQByAFAAQwBcAEMAYQBuAGUAcjAeFw0xNTAzMDMwNjA2NDFaFw0xNjAzMDIxMjA2NDFaMCUxIzAhBgNVBAMeGgBDAGEAbgBlAHIAUABDAFwAQwBhAG4AZQByMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCmBJKqq4McWYKQWMXiRPEtb9pDTwvSPB+LCiyf8H80tFuXiZlu+CRmIcwpjTEQuXgdbq7GEcxdASUPTHdtXknxjtavnpFIJoPgfNV+gGGeiChwzf04f6yUMcJSJvglV5vsIl66BQRZzc4x1x4GnjGcijFu7IWg/bEnzlEMwks4NQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAF0SguI5HSs98atGfNLx09M7I6IfMMsHsbSe85B+glCVwp4rBeJDShIqxCbNycVR/evlBIrlpXcOZYAIh//wDcLWDJPqD2t5rwn4XL5AuytvwxC3+WnNHGT4D+vSyO005jC3hl7RT884nlSFSGdVAihlkxqpwSw09yhSos6/L/ot</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
