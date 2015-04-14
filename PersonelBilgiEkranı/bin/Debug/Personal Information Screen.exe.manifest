@@ -53,14 +53,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Personal Information Screen.exe" size="770048">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Personal Information Screen.exe" size="768512">
       <assemblyIdentity name="Personal Information Screen" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>99/smOLLS8NqGisJQ9mFVUcdrGg=</dsig:DigestValue>
+        <dsig:DigestValue>jb2c0gEN9uAlMDsh4iH3F+I+TMk=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -76,15 +76,6 @@
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="db.db3" size="3072">
-    <hash>
-      <dsig:Transforms>
-        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-      </dsig:Transforms>
-      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>m3IzGm1VDn9apBM1c6dcwfe//eE=</dsig:DigestValue>
-    </hash>
-  </file>
   <file name="icon (2).ico" size="370070">
     <hash>
       <dsig:Transforms>

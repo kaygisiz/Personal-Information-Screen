@@ -82,8 +82,10 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.ekSeçeneklerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.excelDosyasınıYenileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.resimKlasörünüYenileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+            this.resimKlasörünüYenileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.yardımToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.kaynakKodlarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -509,7 +511,8 @@
             // menuStrip1
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.ekSeçeneklerToolStripMenuItem});
+            this.ekSeçeneklerToolStripMenuItem,
+            this.yardımToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(627, 24);
@@ -533,6 +536,11 @@
             this.excelDosyasınıYenileToolStripMenuItem.Text = "Excel dosyasını yenile";
             this.excelDosyasınıYenileToolStripMenuItem.Click += new System.EventHandler(this.excelDosyasınıYenileToolStripMenuItem_Click);
             // 
+            // toolStripSeparator1
+            // 
+            this.toolStripSeparator1.Name = "toolStripSeparator1";
+            this.toolStripSeparator1.Size = new System.Drawing.Size(192, 6);
+            // 
             // resimKlasörünüYenileToolStripMenuItem
             // 
             this.resimKlasörünüYenileToolStripMenuItem.Name = "resimKlasörünüYenileToolStripMenuItem";
@@ -540,10 +548,20 @@
             this.resimKlasörünüYenileToolStripMenuItem.Text = "Resim klasörünü yenile";
             this.resimKlasörünüYenileToolStripMenuItem.Click += new System.EventHandler(this.resimKlasörünüYenileToolStripMenuItem_Click);
             // 
-            // toolStripSeparator1
+            // yardımToolStripMenuItem
             // 
-            this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(192, 6);
+            this.yardımToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.kaynakKodlarToolStripMenuItem});
+            this.yardımToolStripMenuItem.Name = "yardımToolStripMenuItem";
+            this.yardımToolStripMenuItem.Size = new System.Drawing.Size(57, 20);
+            this.yardımToolStripMenuItem.Text = "Yardım";
+            // 
+            // kaynakKodlarToolStripMenuItem
+            // 
+            this.kaynakKodlarToolStripMenuItem.Name = "kaynakKodlarToolStripMenuItem";
+            this.kaynakKodlarToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.kaynakKodlarToolStripMenuItem.Text = "Kaynak kodlar";
+            this.kaynakKodlarToolStripMenuItem.Click += new System.EventHandler(this.kaynakKodlarToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -662,6 +680,8 @@
         private System.Windows.Forms.ToolStripMenuItem excelDosyasınıYenileToolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
         private System.Windows.Forms.ToolStripMenuItem resimKlasörünüYenileToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem yardımToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem kaynakKodlarToolStripMenuItem;
     }
 }
 
